@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Struts2Diagram version="2.0">
+  <package name="struts2" location="10,10" size="280,140">
+    <action name="sum" location="55,45" size="150,62">
+      <result name="positive">
+        <resourceEdge source="positive" routing="0" target="positive.jsp" />
+      </result>
+      <result name="negative">
+        <resourceEdge source="negative" routing="0" target="negative.jsp" />
+      </result>
+    </action>
+  </package>
+  <webResource name="positive.jsp" path="/positive.jsp" location="341,39" size="150,55" />
+  <webResource name="negative.jsp" path="/negative.jsp" location="341,98" size="150,55" />
+</Struts2Diagram>
+
